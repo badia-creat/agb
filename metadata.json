@@ -1,0 +1,7 @@
+{
+  "name": "AGB Engineering Services Ltd",
+  "description": "Professional engineering services specializing in Mechanical, Electrical, Civil, and Fire Engineering.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
