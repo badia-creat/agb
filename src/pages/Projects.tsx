@@ -3,12 +3,12 @@ import { motion, AnimatePresence } from 'motion/react';
 import { X, Maximize2, Filter } from 'lucide-react';
 
 const projects = [
-  { id: 1, category: 'Civil & Infrastructure', title: 'Expertise You Can Trust', image: 'static/const.png', caption: 'From civil works to mechanical installations, our uniformed experts bring years of collective experience to every construction landscape.' },
-  { id: 2, category: 'Mechanical & Wet Services', title: 'Advanced Reticulation Systems', image: 'static/pipes.png', caption: 'Precision-engineered piping and valve systems designed for durability and high-pressure performance in industrial and municipal water works.' },
-  { id: 3, category: 'General Supplies', title: 'Reliable Delivery & Distribution', image: 'static/delivery.jpg', caption: 'Our logistics team ensures that high-quality products and materials reach our clients on time, utilizing branded fleet operations to maintain service excellence.' },
-  { id: 4, category: 'Civil & Infrastructure', title: 'Heavy Infrastructure Components', image: 'static/ind.png', caption: 'Expert handling and installation of mechanical infrastructure, from heavy-duty valves to industrial piping systems.' },
-  { id: 5, category: 'Mechanical & Wet Services', title: 'Transforming Landscapes', image: 'static/galer.png', caption: 'From dam design to sewer reticulation, our heavy equipment is the driving force behind the essential utility systems we build for communities across the nation.' },
-  { id: 6, category: 'Civil & Infrastructure', title: 'Shaping the Skyline of Africa', image: 'static/building.png', caption: 'Guided by our mission to be a leading partner in innovative engineering, we are proud to contribute to the growing infrastructure and urban landscape of our nation.' },
+  { id: 1, category: 'Civil & Infrastructure', title: 'Expertise You Can Trust', image: '/images/const.png', caption: 'From civil works to mechanical installations, our uniformed experts bring years of collective experience to every construction landscape.' },
+  { id: 2, category: 'Mechanical & Wet Services', title: 'Advanced Reticulation Systems', image: '/images/pipes.png', caption: 'Precision-engineered piping and valve systems designed for durability and high-pressure performance in industrial and municipal water works.' },
+  { id: 3, category: 'General Supplies', title: 'Reliable Delivery & Distribution', image: '/images/delivery.jpg', caption: 'Our logistics team ensures that high-quality products and materials reach our clients on time, utilizing branded fleet operations to maintain service excellence.' },
+  { id: 4, category: 'Civil & Infrastructure', title: 'Heavy Infrastructure Components', image: '/images/ind.png', caption: 'Expert handling and installation of mechanical infrastructure, from heavy-duty valves to industrial piping systems.' },
+  { id: 5, category: 'Mechanical & Wet Services', title: 'Transforming Landscapes', image: '/images/galer.png', caption: 'From dam design to sewer reticulation, our heavy equipment is the driving force behind the essential utility systems we build for communities across the nation.' },
+  { id: 6, category: 'Civil & Infrastructure', title: 'Shaping the Skyline of Africa', image: '/images/building.png', caption: 'Guided by our mission to be a leading partner in innovative engineering, we are proud to contribute to the growing infrastructure and urban landscape of our nation.' },
 ];
 
 const categories = ['All', 'Civil & Infrastructure', 'Mechanical & Wet Services', 'General Supplies'];

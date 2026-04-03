@@ -52,7 +52,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
             <img 
-              src="/static/agbLogo.png"
+              src="/images/agbLogo.png"
               alt="AGB Engineering Services Ltd"
               className="w-10 h-10 object-contain"
             />

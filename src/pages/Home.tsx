@@ -12,10 +12,10 @@ const services = [
 ];
 
 const partners = [
-  { id: 1, name: "Partner 1", logo: "/static/pejom.png", pin: "PIN: P051229094Z" },
-  { id: 2, name: "Partner 2", logo: "/static/bondtech.png", pin: "PIN: PO51963387Y" },
-  { id: 3, name: "Partner 3", logo: "/static/EWK.PNG", pin: "PIN: P052190191V" },
-  { id: 4, name: "Partner 4", logo: "/static/yelloltd.png", pin: "PIN: NA" },
+  { id: 1, name: "Partner 1", logo: "/images/pejom.png", pin: "PIN: P051229094Z" },
+  { id: 2, name: "Partner 2", logo: "/images/bondtech.png", pin: "PIN: PO51963387Y" },
+  { id: 3, name: "Partner 3", logo: "/images/EWK.PNG", pin: "PIN: P052190191V" },
+  { id: 4, name: "Partner 4", logo: "/images/yelloltd.png", pin: "PIN: NA" },
 ];
 export default function Home() {
   return (
