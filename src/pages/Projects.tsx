@@ -101,7 +101,7 @@ export default function Projects() {
             <div className="order-2 lg:order-1">
               <div className="aspect-video rounded-3xl overflow-hidden shadow-2xl">
                 <img 
-                  src="static/shop.jpg" 
+                  src="/images/shop.jpg" 
                   alt="Team on site" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"

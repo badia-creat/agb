@@ -113,7 +113,7 @@ export default function Home() {
             <div className="relative">
               <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl">
                 <img 
-                  src="/static/engi.jpg"
+                  src="/images/engi.jpg"
                   alt="Construction Site" 
                   className="w-full h-full object-cover"
                 />
