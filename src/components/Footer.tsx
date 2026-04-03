@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, Video } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -23,17 +23,16 @@ export default function Footer() {
               delivering high-quality infrastructure and technical solutions across East Africa.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors">
+              <a href="https://www.facebook.com/profile.php?id=100063704783657&mibextid=rS40aB7S9Ucbxw6v" className="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors">
                 <Facebook className="w-4 h-4" />
               </a>
-              <a href="#" className="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors">
-                <Twitter className="w-4 h-4" />
-              </a>
-              <a href="#" className="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors">
-                <Linkedin className="w-4 h-4" />
-              </a>
-              <a href="#" className="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors">
-                <Instagram className="w-4 h-4" />
+              <a 
+                href="https://www.tiktok.com/@aggreybadia7"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-8 h-8 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors"
+              >
+                <Video className="w-4 h-4" />
               </a>
             </div>
           </div>
@@ -79,8 +78,7 @@ export default function Footer() {
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-primary shrink-0" />
                 <div className="flex flex-col">
-                  <a href="mailto:info@agbengineering.co.ke" className="hover:text-white">info@agbengineering.co.ke</a>
-                  <a href="mailto:sales@agbengineering.co.ke" className="hover:text-white">sales@agbengineering.co.ke</a>
+                  <a href="mailto:agbengineering73@gmail.com" className="hover:text-white">agbengineering73@gmail.com</a>
                 </div>
               </div>
             </div>
